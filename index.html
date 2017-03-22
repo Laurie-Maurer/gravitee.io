@@ -35,7 +35,7 @@
   <!-- header
 ================================================== -->
   <header>
-    <a href="https://github.com/gravitee-io">
+    <a href="https://github.com/gravitee-io" target="_blank">
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67"
         alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
     <div class="row">
@@ -45,11 +45,12 @@
 
       <nav id="main-nav-wrap">
         <ul class="main-navigation">
-          <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-          <li><a class="smoothscroll" href="#process" title="">How it works</a></li>
-          <li><a class="smoothscroll" href="#features" title="">Features</a></li>
-          <li><a class="smoothscroll" href="#downloads" title="">About</a></li>
-          <li><a href="https://docs.gravitee.io/" title="Documentation" target="_blank">Docs</a></li>
+          <li class="current"><a class="smoothscroll" href="#intro">Home</a></li>
+          <li><a class="smoothscroll" href="#process">How it works</a></li>
+          <li><a class="smoothscroll" href="#features">Features</a></li>
+          <li><a class="smoothscroll" href="#downloads">Downloads</a></li>
+          <li><a class="smoothscroll" href="#about">About & License</a></li>
+          <li><a href="https://docs.gravitee.io/" target="_blank">Documentation</a></li>
         </ul>
       </nav>
 
@@ -63,7 +64,7 @@
   <!-- intro section
 ================================================== -->
   <section id="intro">
-    <div id="canvasplace"class="hidden-xs">
+    <div id="canvasplace" class="hidden-xs">
 
     </div>
     <div class="shadow-overlay"></div>
@@ -105,7 +106,7 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" style="min-height: 100%;">
+        <div class="carousel-inner" style="max-width: 70%; margin: auto;">
           <div class="item active">
             <a href="images/RegisterAPI_1.jpg" data-imagelightbox="a"><img src="images/RegisterAPI_1.jpg" alt="register API"></a>
 
@@ -193,8 +194,7 @@
             <h3 class="h05">Custom Policies</h3>
             <p>
               Gravitee.io provides <a href="https://github.com/gravitee-io?utf8=%E2%9C%93&query=gravitee-policy-" target="_blank">a lot of policies</a> out of the box (rate limiting, CORS, IP filtering). If it's not enough, you can
-              <a href="https://docs.gravitee.io/apim_devguide_policies.html"
-                target="_blank">develop your own</a>.
+              <a href="https://docs.gravitee.io/apim_devguide_policies.html" target="_blank">develop your own</a>.
             </p>
           </div>
         </div>
@@ -227,7 +227,7 @@
           <div class="service-content">
             <h3 class="h05">Custom Reporters</h3>
             <p>
-              You want to report data into a specific storage or by calling a dedicated API ? No problem, just implement the reporting API and do whatever you want !
+              You want to report data into a specific storage or by calling a dedicated API ? No problem, just implement the reporting API and do whatever you want!
             </p>
           </div>
         </div>
@@ -305,38 +305,15 @@
   </section>
   <!-- /features -->
 
-  <!-- About Section
-================================================== -->
   <section id="downloads">
     <div class="col-twelve tab-full mob-full">
-      <div class="col-four col-100  tab-full mob-full">
-        <div class="row section-intro">
-          <div class="col-twelve with-bottom-line">
-            <span class="subtitle">We thank you</span>
-            <h2 class="sectiontitre2">Acknowledgments</h2>
-          </div>
+      <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+          <span class="subtitle">Get Gravitee.io</span>
+          <h2 class="sectiontitre2">Downloads</h2>
         </div>
-        <ul style="list-style:none;">
-          <li><img class="img-responsive" style="margin: auto;" src="images/logo_jetbrains.png" alt="logo Jetbrains"></li>
-        </ul>
       </div>
-      <div class="col-four col-100  tab-full mob-full">
-        <div class="row section-intro">
-          <div class="col-twelve with-bottom-line">
-            <span class="subtitle">They use Gravitee.io</span>
-            <h2 class="sectiontitre2">Testimonials</h2>
-          </div>
-        </div>
-
-      </div>
-      <div class="col-four col-100">
-
-        <div class="row section-intro">
-          <div class="col-twelve with-bottom-line">
-            <span class="subtitle">Get Gravitee.io</span>
-            <h2 class="sectiontitre2">Downloads</h2>
-          </div>
-        </div>
+      <div class="col-six col-100">
         <div class="row pricing-content col-twelve tab-full mob-full" style="display:flex; justify-content:center;">
           <div class="pricing-tables group">
             <div style="float:none; margin:0 auto;">
@@ -354,12 +331,110 @@
           <!-- /pricing-tables -->
         </div>
       </div>
+      <div class="col-six col-100">
+        <div class="row pricing-content col-twelve tab-full mob-full" style="display:flex; justify-content:center;">
+          <div class="pricing-tables group">
+            <div style="float:none; margin:0 auto;">
+              <div class="price-block">
+                <div class="top-part" style="padding-bottom: 6px;">
+                  <h3 class="plan-title">Comming<br/> Soon</h3>
+                  <p class="price-meta">A new download will be release soon!</p>
+                </div>
+                <div class="bottom-part" style="padding-bottom: 0px;">
+                  <a class="button stroke" href="https://twitter.com/GraviteeIO" target="_blank">Stay Tune @GraviteeIO!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /pricing-tables -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section
+================================================== -->
+  <section id="about">
+    <div class="col-twelve tab-full mob-full">
+      <div class="col-six col-100  tab-full mob-full">
+        <div class="row section-intro">
+          <div class="col-twelve with-bottom-line">
+            <!-- <span class="subtitle">We thank you</span> -->
+            <h2 class="sectiontitre2">Acknowledgements</h2>
+          </div>
+        </div>
+        <ul style="list-style:none;">
+          <li>
+            <a target="_blank" href="https://www.jetbrains.com/"><img class="img-responsive" style="margin: auto;" src="images/logo_jetbrains.png" alt="logo Jetbrains"></a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-six col-100  tab-full mob-full">
+        <div class="row section-intro">
+          <div class="col-twelve with-bottom-line">
+            <!-- <span class="subtitle">They use Gravitee.io</span> -->
+            <h2 class="sectiontitre2">They use Gravitee.io</h2>
+          </div>
+        </div>
+        <ul style="list-style:none;">
+          <li>
+            <a target="_blank" href="http://www.groupe-auchan.com/"><img class="img-responsive" style="margin: auto;" src="images/auchan_retail_logo.png" alt="logo Auchan Retail"></a>
+          </li>
+          <li>
+        </ul>
+
+      </div>
+
     </div>
 
   </section>
   <!-- /About -->
 
+  <section id="testimonials">
+    <div class="col-twelve tab-full mob-full">
+      <div class="row section-intro">
+        <div class="col-twelve with-bottom-line">
+          <span class="subtitle"></span>
+          <h2 class="sectiontitre2">Testimonials</h2>
+        </div>
+      </div>
+      <div class="col-twelve col-100">
+        <div id="carousel-generic2" class="carousel slide" data-ride="carousel" style="width: 80%;margin: auto;text-align: left;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-generic2" data-slide-to="0" class="active"></li>
+          </ol>
 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="well well-lg">
+                <blockquote>
+                  <p>Great solution for all scale corporate api management : the gateway scales out by design because it's « shared-nothing », and the dependency to the underlying resources (database, disk, network …) is minimum.</p>
+                  <p>Amongst all the solutions we benched - open source and well-known editors, Gravitee is also the fastest by far, with a sub-millisecond overhead.</p>
+                  <p>For one of our customers (a big retailer), millions of calls per day are handled with almost no cpu load, and we are about to ramp up to millions per hour without pain or additionnal expense.
+                </blockquote>
+                <span>Anselme Dewavrin, CTO  <a href="http://apizr.fr/" target="_blank">APIZ'r</a></span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-generic2" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-generic2" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
 
   <!-- cta
 ================================================== -->
@@ -383,8 +458,8 @@
                     <span>© Copyright GraviteeSource 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>.</span>
         <span>Design by <a href="http://www.styleshout.com/" target="_blank" style="color:white">styleshout</a></span>
         <!-- Button trigger modal -->
-        <span><a data-toggle="modal" data-target="#mentions" style="color:white">Mentions légales</a></span>
-        <span><a data-toggle="modal" data-target="#cookies" style="color:white">À propos des cookies</a></span>
+        <span><a data-toggle="modal" data-target="#mentions" style="color:white">Legal Terms</a></span>
+        <span><a data-toggle="modal" data-target="#cookies" style="color:white">About cookies</a></span>
         <div id="go-top" style="display: block;">
           <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
         </div>
@@ -394,12 +469,12 @@
     <!-- /footer-bottom -->
 
     </div>
-  </div>
+    </div>
   </section>
   <!-- /cta -->
 
   <div id="preloader">
-    <div id="loader"><img src="./images/gravitee_logo_anim.gif" alt=""/></div>
+    <div id="loader"><img src="./images/gravitee_logo_anim.gif" alt="" /></div>
   </div>
 
   <!-- Modal -->
@@ -408,20 +483,20 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Mentions légales</h4>
+          <h4 class="modal-title" id="myModalLabel">Legal Terms</h4>
         </div>
         <div class="modal-body">
           <ul style="list-style:none;">
             <li style="font-weight:bold;">GraviteeSource SAS</li>
             <li>31 RUE SERGENT BOBILLOT 59200 TOURCOING</li>
-            <li>Capital social : 1000€</li>
+            <li>Share capital : 1000€</li>
             <li>Contact : <a href="mailto:contact@graviteesource.com?subject=feedback">contact@graviteesource.com</a></li>
             <li>RCS Tribunal de Commerce de Lille Métropole 818 169 971</li>
             <li>TVA : FR 03 818 169 971</li>
-            <li>Directeur de la publication : Nicolas Geraud</li>
-            <li>Hébergeur : OVH SAS</li>
-            <li>Adresse : 2 rue Kellermann - 59100 Roubaix - France.</li>
-            <li>Tel : 1007</li>
+            <li>Publication manager : Nicolas Geraud</li>
+            <li>Host : OVH SAS</li>
+            <li>Address : 2 rue Kellermann - 59100 Roubaix - France.</li>
+            <li>Phone : 1007</li>
           </ul>
 
         </div>
@@ -437,15 +512,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">À propos des Cookies</h4>
+          <h4 class="modal-title" id="myModalLabel">About cookies</h4>
         </div>
         <div class="modal-body">
-          <p>Ce site utilise des cookies à des fins de mesure d'audience. Ils nous permettent d'évaluer comment vous utilisez ce site et nous permet de l'améliorer en conséquences.</p>
-          <p>Pour ce faire nous utilisons le service de Google "Google Analytics" qui nous indique, entre autres, comment vous êtes arrivé sur le site, combien de temps vous êtes resté sur une page et votre géolocalisation approximative, ce qui nous permet
-            d'améliorer votre expérience utilisateur.</p>
-          <p>Ces cookies sont de petits fichiers stockés sur votre ordinateur et ne peuvent être supprimés directement via notre site, il est cependant possible de les supprimer via votre navigateur.</p>
-          <p>
-            Pour <a target="_blank" href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies">Internet Explorer</a> , <a target="_blank" href="https://support.mozilla.org/t5/Cookies-and-cache/Effacer-les-cookies-pour-supprimer-les-informations-que-les/ta-p/11762">Mozilla Firefox</a>            , <a target="_blank" href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=fr">Google Chrome</a> ,
+          <p>This website uses cookies for audience measurement purposes. They enable us to evaluate how you use this website and help us to improve it accordingly.</p>
+          <p>To do this, we use the Google Analytics service, which tells us how you got to the website, how long you stayed on a page and your approximate geolocation, which help us to improve your user experience.</p>
+          <p>These cookies are small files stored on your computer and can not be deleted directly via our website, however it is possible to delete them via your browser.</p>
+          <p>In <a target="_blank" href="https://support.microsoft.com/fr-fr/help/17442/windows-internet-explorer-delete-manage-cookies">Internet Explorer</a> , <a target="_blank" href="https://support.mozilla.org/t5/Cookies-and-cache/Effacer-les-cookies-pour-supprimer-les-informations-que-les/ta-p/11762">Mozilla Firefox</a>            , <a target="_blank" href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=fr">Google Chrome</a> ,
             <a target="_blank" href="http://help.opera.com/Windows/10.20/fr/cookies.html#prefs">Opera</a> , <a target="_blank" href="https://support.apple.com/kb/PH19214?locale=fr_BE&viewlocale=fr_FR">Safari</a>.
 
           </p>
@@ -470,6 +543,7 @@
   <script>
     var releases = [
       // LAST BUILD RELEASE
+      "v1.4.0",
       "v1.3.3",
       "v1.3.2",
       "v1.3.0",

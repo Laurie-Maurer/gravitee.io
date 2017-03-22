@@ -107,3 +107,11 @@ window.onload = function () {
     $('#canvas').appendTo( $('#canvasplace'));
 
 };
+window.onresize = function(event) {
+var space = new Space();
+var canvas = document.getElementById("canvas");
+canvas.remove();
+  space.init();
+  $('#canvas').appendTo( $('#canvasplace'));
+
+};

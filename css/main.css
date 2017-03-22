@@ -192,7 +192,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #333;
+	color: #35a8e0;
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -718,7 +718,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro .sectiontitre2 {
 	font-family: "merriweather-bold", serif;
-	font-size: 2.3rem;
+	font-size: 4rem;
 	color: #252525;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
@@ -879,12 +879,12 @@ a.menu-toggle {
 /* main-nav-wrap */
 #main-nav-wrap {
 	font-family: "raleway-heavy", sans-serif;
-	font-size: 11.5px;
+	font-size: 10.5px;
 	text-transform: uppercase;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	position: absolute;
 	top: 0;
-	right: 30px;
+	right: -50px;
 }
 .main-navigation {
 	min-height: 66px;
@@ -949,7 +949,7 @@ a.menu-toggle {
 /* navigation links */
 .main-navigation li a {
 	display: block;
-	padding: 18px 7px;
+	padding: 18px 6px;
 	line-height: 30px;
 	text-decoration: none;
 	text-align: left;
@@ -1397,7 +1397,7 @@ a.menu-toggle {
  * -------------------------------------------------------------------
  */
 
-#process, #downloads {
+#process, #downloads, #testimonials {
 	background-color: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
@@ -1513,19 +1513,20 @@ a.menu-toggle {
  * -------------------------------------------------------------------
  */
 
-#features {
+#features, #about {
 	background-color: #23233a;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 	color: white;
+	overflow: hidden;
 }
-#features .section-intro .sectiontitre {
+#features .section-intro .sectiontitre, #about .section-intro .sectiontitre2{
 	color: white;
 }
-#features .section-intro h5 {
+#features .section-intro h5,#about .section-intro .subtitle {
 	color: rgba(255, 255, 255, 0.5);
 }
-#features .section-intro p {
+#features .section-intro p,#about .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 .features-content {
@@ -1586,7 +1587,7 @@ a.menu-toggle {
  * -------------------------------------------------------------------
  */
 
-#pricing, #downloads {
+#pricing, #downloads, #testimonials {
 	background-color: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
@@ -1614,6 +1615,8 @@ a.menu-toggle {
 	color: #FFFFFF;
 	padding-bottom: 2.4rem;
 	position: relative;
+	min-width: 315px;
+	min-height: 220px;
 }
 .pricing-content .price-block .bottom-part {
 	padding-top: 2.4rem;
@@ -2407,3 +2410,4 @@ a{cursor: pointer;}
     display: none !important;
   }
 }
+.well span {color: #35a8e0;font-weight: bold;}
