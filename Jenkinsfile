@@ -5,6 +5,7 @@ node() {
 
     stage "Docker Build & Push"
 
-    sh "docker build -t graviteeio/website:latest --pull=true ."
-    sh "docker push graviteeio/website:latest"
+    sh "docker build -t graviteeio/website:v2 --pull=true ."
+    sh "docker container stop beta"
+    sh "docker container run -d --rm --name beta graviteeio/website:v2"
 }
