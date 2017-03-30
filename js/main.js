@@ -65,7 +65,7 @@
 
   	$('#main-nav-wrap li a').on("click", function() {
 
-   	if (nav.hasClass('mobile')) {   		
+   	if (nav.hasClass('mobile')) {
    		toggleButton.toggleClass('is-clicked');
    		nav.fadeOut();
    	}

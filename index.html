@@ -38,6 +38,9 @@
     <a href="https://github.com/gravitee-io" target="_blank">
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67"
         alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+        <a href="https://github.com/gravitee-io" target="_blank" class="social git hidden-xs" title="GitHub Repository" style="top: 250px;"><span class="ion"><i class="ion-social-github" style="font-size:3rem"></i></span></a>
+        <a href="https://twitter.com/GraviteeIO" target="_blank" class="social hidden-xs" style="top: 302px;" title="Follow us on Twitter"><span class="ion"><i class="ion-social-twitter" style="font-size:3rem"></i></span></a>
+        <a href="https://graviteesource.com/" target="_blank" class="social-gs hidden-xs" title="GraviteeSource"><img src="images/GS.png" alt="GraviteeSource"></a>
     <div class="row">
       <div class="logo">
         <a href="index.html">Gravitee.io</a>
@@ -47,7 +50,7 @@
         <ul class="main-navigation">
           <li class="current"><a class="smoothscroll" href="#intro">Home</a></li>
           <li><a class="smoothscroll" href="#process">How it works</a></li>
-          <li><a class="smoothscroll" href="#features">Features</a></li>
+          <li id="featuresli"><a class="smoothscroll" href="#features">Features</a></li>
           <li><a class="smoothscroll" href="#downloads">Downloads</a></li>
           <li><a class="smoothscroll" href="#about">About & License</a></li>
           <li><a href="https://docs.gravitee.io/" target="_blank">Documentation</a></li>
@@ -155,7 +158,7 @@
 
     <div class="row features-content">
       <div class="features-list block-1-4 block-s-1-2 block-tab-full group">
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:0s; animation-fill-mode:both">
           <span class="icon"><i class="icon-file"></i></span>
           <div class="service-content">
             <h3 class="h05">Rest API</h3>
@@ -166,7 +169,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:0.2s; animation-fill-mode:both">
           <span class="icon"><i class="icon-cursor"></i></span>
           <div class="service-content">
             <h3 class="h05">One click deployment</h3>
@@ -177,7 +180,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:0.4s; animation-fill-mode:both">
           <span class="icon"><i class="icon-cloud"></i></span>
           <div class="service-content">
             <h3 class="h05">Highly scalable</h3>
@@ -188,7 +191,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:0.6s; animation-fill-mode:both">
           <span class="icon"><i class="icon-share"></i></span>
           <div class="service-content">
             <h3 class="h05">Custom Policies</h3>
@@ -200,7 +203,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:0.8s; animation-fill-mode:both">
           <span class="icon"><i class="icon-network"></i></span>
           <div class="service-content">
             <h3 class="h05">Load Balancing</h3>
@@ -211,7 +214,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1s; animation-fill-mode:both">
           <span class="icon"><i class="icon-update"></i></span>
           <div class="service-content">
             <h3 class="h05">Rollback configuration</h3>
@@ -222,7 +225,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1.2s; animation-fill-mode:both">
           <span class="icon"><i class="icon-signal"></i></span>
           <div class="service-content">
             <h3 class="h05">Custom Reporters</h3>
@@ -233,7 +236,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1.4s; animation-fill-mode:both">
           <span class="icon"><i class="icon-bar-chart"></i></span>
           <div class="service-content">
             <h3 class="h05">Analytics</h3>
@@ -244,7 +247,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1.4s; animation-fill-mode:both">
           <span class="icon"><i class="icon-window"></i></span>
           <div class="service-content">
             <h3 class="h05">API Portal</h3>
@@ -255,7 +258,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1.6s; animation-fill-mode:both">
           <span class="icon"><i class="icon-grid"></i></span>
           <div class="service-content">
             <h3 class="h05">Sharding</h3>
@@ -266,7 +269,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:1.8s; animation-fill-mode:both">
           <span class="icon"><i class="icon-heart"></i></span>
           <div class="service-content">
             <h3 class="h05">Health check</h3>
@@ -277,7 +280,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:2s; animation-fill-mode:both">
           <span class="icon"><i class="icon-first-aid"></i></span>
           <div class="service-content">
             <h3 class="h05">Fail-over</h3>
@@ -288,7 +291,7 @@
         </div>
         <!-- /bgrid -->
 
-        <div class="bgrid feature">
+        <div class="bgrid feature" style="opacity:0; animation-duration: 1s; animation-delay:2.2s; animation-fill-mode:both">
           <span class="icon"><i class="icon-shield"></i></span>
           <div class="service-content">
             <h3 class="h05">Security</h3>
@@ -319,7 +322,7 @@
             <div style="float:none; margin:0 auto;">
               <div class="price-block">
                 <div class="top-part" style="padding-bottom: 6px;">
-                  <h3 class="plan-title">Gravitee.io<br/> Full Stack</h3>
+                  <h3 class="plan-title">Gravitee.io<br/> API Management</h3>
                   <p class="price-meta">Gateway, Management API and API Portal</p>
                 </div>
                 <div class="bottom-part" style="padding-bottom: 0px;">
@@ -337,11 +340,11 @@
             <div style="float:none; margin:0 auto;">
               <div class="price-block">
                 <div class="top-part" style="padding-bottom: 6px;">
-                  <h3 class="plan-title">Comming<br/> Soon</h3>
-                  <p class="price-meta">A new download will be release soon!</p>
+                  <h3 class="plan-title">Gravitee.io<br/> Access Management</h3>
+                  <p class="price-meta">A new download will be released soon!</p>
                 </div>
                 <div class="bottom-part" style="padding-bottom: 0px;">
-                  <a class="button stroke" href="https://twitter.com/GraviteeIO" target="_blank">Stay Tune @GraviteeIO!</a>
+                  <a class="button stroke" href="https://twitter.com/GraviteeIO" target="_blank">Stay Tuned @GraviteeIO!</a>
                 </div>
               </div>
             </div>
@@ -423,10 +426,10 @@
 
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-generic2" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="icon-prev"></span>
           </a>
           <a class="right carousel-control" href="#carousel-generic2" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="icon-next"></span>
           </a>
         </div>
 
@@ -441,12 +444,15 @@
   <section id="cta">
 
     <div class="row section-intro">
-      <div class="col-twelve with-bottom-line">
+      <div class="col-twelve">
 
         <span class="sectiontitre">Fully Open Source</h1>
 
             <p class="lead">Every piece of code is distributed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License V2</a></p>
-
+            <a href="https://github.com/gravitee-io" target="_blank" style="width:50px"><span class="ion" title="GitHub Repository"><i class="ion-social-github" style="width:50px;font-size: 4.5rem; color: white;"></i></span></a>
+            <a href="https://twitter.com/GraviteeIO" target="_blank" style="width:50px"><span class="ion" title="Follow us on Twitter"><i class="ion-social-twitter" style="width:50px;font-size: 4.5rem;
+    color: white;"></i></span></a>
+            <a href="https://graviteesource.com/" target="_blank" title="GraviteeSource"><img style="width:45px" src="images/GS.png" alt="GraviteeSource"></a>
         </div>
     </div>
     <div class="footer-bottom">
@@ -455,12 +461,12 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright GraviteeSource 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>.</span>
+                    <span>© Copyright GraviteeSource 2016<script>new Date().getFullYear()>2016&&document.write(" - "+new Date().getFullYear());</script>.</span>
         <span>Design by <a href="http://www.styleshout.com/" target="_blank" style="color:white">styleshout</a></span>
         <!-- Button trigger modal -->
         <span><a data-toggle="modal" data-target="#mentions" style="color:white">Legal Terms</a></span>
         <span><a data-toggle="modal" data-target="#cookies" style="color:white">About cookies</a></span>
-        <div id="go-top" style="display: block;">
+        <div id="go-top" style="display: block;	z-index: 9999999999;">
           <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
         </div>
       </div>
@@ -572,7 +578,7 @@
     ];
     $('span.releaseVersion').html(releases[0]);
   </script>
-  <script>
+  <!-- <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
       i[r] = i[r] || function() {
@@ -587,15 +593,36 @@
 
     ga('create', 'UA-67690250-1', 'auto');
     ga('send', 'pageview');
-  </script>
-  <script src="js/space.js">
-  </script>
+  </script> -->
+  <script src="js/space.js"></script> <!-- Animation principale-->
   <script src="js/bootstrap.min.js" charset="utf-8"></script>
   <script type="text/javascript">
     $('.carousel').carousel({
       interval: 6000
     })
   </script>
+  <script type="text/javascript">
+  $(window).scroll(function() {if ($("li#featuresli").hasClass("current")) {
+             $("div.bgrid.feature").addClass("Appear")}});
+  </script> <!-- Animation des features-->
+  <script type="text/javascript" src="js/tarteaucitron/tarteaucitron.js"></script>
+
+        <script type="text/javascript">
+        tarteaucitron.init({
+            "hashtag": "#tarteaucitron", /* Ouverture automatique du panel avec le hashtag */
+            "highPrivacy": false, /* désactiver le consentement implicite (en naviguant) ? */
+            "orientation": "bottom", /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
+            "adblocker": false, /* Afficher un message si un adblocker est détecté */
+            "showAlertSmall": true, /* afficher le petit bandeau en bas à droite ? */
+            "cookieslist": true, /* Afficher la liste des cookies installés ? */
+            "removeCredit": false /* supprimer le lien vers la source ? */
+        });
+        </script>
+        <script type="text/javascript">
+        tarteaucitron.user.analyticsUa = 'UA-XXXXXXXX-X';
+        tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
+        (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+        </script>
 </body>
 
 </html>
