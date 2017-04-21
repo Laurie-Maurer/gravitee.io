@@ -681,12 +681,18 @@ button.round, .button.round {
 }
 button.stroke, .button.stroke {
 	background: transparent; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #43cea2 , #35a8e0); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #43cea2 , #35a8e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border: 2px solid white;
+	background: #FFFFFF; /* Chrome 10-25, Safari 5.1-6 */
 	line-height: 4.4rem;
 	border-radius:0px;
-	color: white;
+	color: #35a8e0;
+}
+#downloads button.stroke, #downloads .button.stroke {
+	background: transparent; /* fallback for old browsers */
+	background: #FFFFFF; /* Chrome 10-25, Safari 5.1-6 */
+	line-height: 4.4rem;
+	border-radius:0px;
+	color: #35a8e0;
+	border: 1px solid #35a8e0;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -1190,32 +1196,28 @@ a.menu-toggle {
 	outline: none;
 }
 .intro-content .button {
-	border-color: #FFFFFF;
-	color: #FFFFFF;
+	color: #35a8e0;
+	background: none;
+	background-color: #FFFFFF;
 	height: 6.6rem;
-	line-height: 6rem;
+	line-height: 6.5rem;
 	padding: 0 3rem !important;
 	margin: 1.5rem;
 	font-family: "raleway-heavy", sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .4rem;
+	text-decoration: none;
 }
-.intro-content .button:hover, .intro-content .button:focus, #downloads .button:hover, #downloads .button:focus, .social:hover, .social-gs:hover {
-	color: #35a8e0;
-	border-color: #35a8e0;
+.intro-content .button:hover, .intro-content .button:focus, #downloads .button:hover, #downloads .button:focus{
+
+	border-color: #FFFFFF;
 	background: none;
-	background-color: #FFFFFF;
-	color: #35a8e0!important;
+	background-color: #35a8e0;
+	color: #FFFFFF!important;
+	text-decoration: none;
 }
 
-.social.git:hover {
-	color: #35a8e0;
-	border-color: #35a8e0;
-	background: none;
-	background-color: #FFFFFF;
-	color: #000000!important;
-}
 
 /**
  * responsive:
@@ -1529,7 +1531,7 @@ a.menu-toggle {
 	color: white;
 	overflow: hidden;
 }
-#features .section-intro .sectiontitre, #about .section-intro .sectiontitre2{
+#features .section-intro .sectiontitre, #about .section-intro .sectiontitre2, #cta .sectiontitre2{
 	color: white;
 }
 #features .section-intro h5,#about .section-intro .subtitle {
@@ -2457,20 +2459,23 @@ a{cursor: pointer;}
   -webkit-animation-name: Appear;
   animation-name: Appear;
 }
-.social {position: absolute;
-	right: 0;
-	width: 48px;
-	height: auto;
-background: linear-gradient(to left, #43cea2 , #35a8e0);
-padding: 6px;
-color: white!important;
-display: flex;
-justify-content: center;}
-
-.social-gs{    position: absolute;
-top: 355px;
-right: 0;
-width: 48px;
-height: auto;
-background: linear-gradient(to left, #43cea2 , #35a8e0);
-padding: 6px;}
+@media (min-width:768px) {
+	#process .carousel-inner {max-width: 70%;}
+}
+.bgrid.feature {opacity:0; animation-duration: 1s; animation-fill-mode:both}
+#downloads .top-part {padding-bottom: 6px;}
+#downloads .bottom-part {padding-bottom: 0px;}
+#downloads .price-block {float:none; margin:0 auto;}
+#downloads .pricing-content{display:flex; justify-content:center;}
+#go-top {display: block;	z-index: 9999999999;}
+.modal-body>ul {list-style: none;}
+#about ul{list-style: none;}
+#about img{margin: auto;}
+#cta .section-intro a{width:50px;}
+#cta .section-intro i{width:50px;font-size: 4.5rem; color: white;}
+#cta .section-intro a:nth-of-type(3) img{width:45px; vertical-align:top;}
+.modal-body li:nth-of-type(1){font-weight:bold;}
+header a img{position: absolute; top: 0; right: 0; border: 0;}
+#carousel-generic2{width: 80%;margin: auto;text-align: left;}
+.copyright a[href*="https://graviteesource.com/"]{color:white; text-decoration:underline;}
+.copyright a{color:white;}
